@@ -1479,7 +1479,7 @@ textarea.is-invalid {
 .loader {
   width: 100vw;
   height: 100vh;
-  background: var(--smoke-color2);
+  background: #f2f2f2;;
   --amount: 20;
 }
 
@@ -17573,4 +17573,45 @@ p {
 
 .th-menu-toggle {
   background-color: grey;
+}
+
+.th-menu-wrapper .th-menu-area {
+  width: 100%;
+  max-width: 310px;
+  background-color: #fff;
+  border-right: 3px solid #000000;
+  height: 100%;
+  position: relative;
+  left: -110%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+  z-index: 1;
+}
+
+.th-menu-wrapper .th-menu-toggle {
+  border: none;
+  font-size: 22px;
+  position: absolute;
+  right: -16.5px;
+  top: 25px;
+  padding: 0;
+  line-height: 1;
+  width: 33px;
+  height: 33px;
+  line-height: 35px;
+  font-size: 18px;
+  z-index: 1;
+  color: #000000;
+  background-color: #979797;
+  border-radius: 50%;
+}
+
+.th-menu-wrapper .mobile-logo {
+  padding-bottom: 30px;
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+  background-color: #f2f2f2;
 }
